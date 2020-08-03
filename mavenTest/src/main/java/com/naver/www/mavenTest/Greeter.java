@@ -12,6 +12,6 @@ public class Greeter {
 	}
 	
 	public String greet(String guest) {
-		return String.format(guest);
+		return String.format(format,guest);
 	}
 }
